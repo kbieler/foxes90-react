@@ -7,7 +7,7 @@ let Home = props => {
     const [dndclass, setDndclass] = useState();
 
     const getDndClass = async () => {
-        let response await axios.get('https://www.dnd5eapi.co/api/classes');
+        let response = await axios.get('https://www.dnd5eapi.co/api/classes');
         return response.status === 200 ? response.data : null;
     }
 
