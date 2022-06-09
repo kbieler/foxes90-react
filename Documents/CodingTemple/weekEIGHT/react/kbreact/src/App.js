@@ -23,6 +23,7 @@ function App() {
       <Routes>
         <Route children path='/' element={<Home dndparty={dndparty} shuffleDnd={shuffleDnd}/>} />
         <Route children path='/shop' element={<Shop />} />
+        <Route children path='/dnd' element={<></>} />
       </Routes>
     </React.Fragment>
   );
